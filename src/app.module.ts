@@ -23,8 +23,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         // Enable SSL for production environments (Render)
         ssl:
           configService.get<string>('NODE_ENV') === 'development'
-            ? { rejectUnauthorized: false } // Common setting for Render/Heroku
-            : false, // Disable SSL for local development if not needed
+            ? { rejectUnauthorized: false }
+            : false,
       }),
       inject: [ConfigService],
     }),
