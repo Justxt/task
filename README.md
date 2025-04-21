@@ -19,7 +19,7 @@ https://youtu.be/WHrlNQAsDKs
 https://task-bzcx.onrender.com/tasks
 
 ### Frontend (`task-front/`)
-https://task-front-56510b8a6-justxts-projects.vercel.app/
+https://task-front-delta.vercel.app/
 
 ### ¿Qué hace el Backend?
 
